@@ -44405,12 +44405,11 @@ a.u-link.u-text-hover-grey-90:hover {
 }
 
 .u-header .u-menu-1 {
-  margin: 54px calc(((100% - 1140px) / 2)) 0 auto;
+  margin: 42px calc(((100% - 1140px) / 2)  + 135px) 0 auto;
 }
 
 .u-header .u-nav-1 {
   font-size: 1rem;
-  letter-spacing: normal;
 }
 
 .u-header .u-nav-4 {
@@ -44420,7 +44419,7 @@ a.u-link.u-text-hover-grey-90:hover {
 .u-header .u-image-1 {
   width: 1240px;
   height: 248px;
-  margin: 0;
+  margin: 12px 0 0;
 }
 
 .u-header .u-logo-image-1 {
@@ -44434,7 +44433,11 @@ a.u-link.u-text-hover-grey-90:hover {
 
   .u-header .u-menu-1 {
     width: auto;
-    margin-right: calc(((100% - 940px) / 2));
+    margin-right: calc(((100% - 940px) / 2) + 135px);
+  }
+
+  .u-header .u-nav-1 {
+    letter-spacing: normal;
   }
 
   .u-header .u-image-1 {
@@ -44448,7 +44451,7 @@ a.u-link.u-text-hover-grey-90:hover {
   }
 
   .u-header .u-menu-1 {
-    margin-right: calc(((100% - 720px) / 2));
+    margin-right: calc(((100% - 720px) / 2) + 135px);
   }
 
   .u-header .u-image-1 {
@@ -44462,7 +44465,7 @@ a.u-link.u-text-hover-grey-90:hover {
   }
 
   .u-header .u-menu-1 {
-    margin-right: calc(((100% - 540px) / 2));
+    margin-right: calc(((100% - 540px) / 2) + 135px);
   }
 
   .u-header .u-image-1 {
@@ -44476,7 +44479,7 @@ a.u-link.u-text-hover-grey-90:hover {
   }
 
   .u-header .u-menu-1 {
-    margin-right: calc(((100% - 340px) / 2));
+    margin-right: calc(((100% - 340px) / 2) + 85px);
   }
 
   .u-header .u-image-1 {
@@ -44491,26 +44494,16 @@ a.u-link.u-text-hover-grey-90:hover {
 .u-footer .u-sheet-1 {
   min-height: 120px;
 }
-@media (max-width: 1199px) {
-  .u-footer .u-sheet-1 {
-    min-height: 99px;
-  }
+
+.u-footer .u-text-1 {
+  margin-bottom: 60px;
+  margin-right: auto;
+  margin-left: auto;
 }
-@media (max-width: 991px) {
-  .u-footer .u-sheet-1 {
-    min-height: 76px;
-  }
-}
-@media (max-width: 767px) {
-  .u-footer .u-sheet-1 {
-    min-height: 57px;
-  }
-}
-@media (max-width: 575px) {
-  .u-footer .u-sheet-1 {
-    min-height: 36px;
-  }
-}
+
+
+
+
 
  /*begin-variables base-font-size*/ 
  html { font-size: 16px; }

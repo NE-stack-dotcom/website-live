@@ -864,56 +864,11 @@
   }
 }.u-section-4 .u-sheet-1 {
   min-height: 459px;
+  margin-bottom: 0;
 }
 
 .u-section-4 .u-image-1 {
-  height: 446px;
-  width: 1140px;
-  margin: 0 auto 13px;
-}
-
-@media (max-width: 1199px) {
-  .u-section-4 .u-sheet-1 {
-    min-height: 381px;
-  }
-
-  .u-section-4 .u-image-1 {
-    height: 368px;
-    width: 940px;
-  }
-}
-
-@media (max-width: 991px) {
-  .u-section-4 .u-sheet-1 {
-    min-height: 295px;
-  }
-
-  .u-section-4 .u-image-1 {
-    height: 282px;
-    width: 770px;
-    margin-top: 7px;
-    margin-bottom: 6px;
-  }
-}
-
-@media (max-width: 767px) {
-  .u-section-4 .u-sheet-1 {
-    min-height: 225px;
-  }
-
-  .u-section-4 .u-image-1 {
-    height: 313px;
-    width: 540px;
-  }
-}
-
-@media (max-width: 575px) {
-  .u-section-4 .u-sheet-1 {
-    min-height: 146px;
-  }
-
-  .u-section-4 .u-image-1 {
-    height: 197px;
-    width: 340px;
-  }
+  height: 346px;
+  margin-top: 80px;
+  margin-bottom: 34px;
 }

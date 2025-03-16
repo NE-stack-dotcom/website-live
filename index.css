@@ -1272,4 +1272,29 @@
     margin-right: 10px;
     margin-left: 79px;
   }
+}.u-section-6 .u-sheet-1 {
+  min-height: 116px;
+}
+
+.u-section-6 .u-text-1 {
+  margin: 20px 404px 10px 26px;
+}
+
+@media (max-width: 1199px) {
+  .u-section-6 .u-text-1 {
+    margin-right: 230px;
+    margin-left: 0;
+  }
+}
+
+@media (max-width: 991px) {
+  .u-section-6 .u-text-1 {
+    margin-right: 10px;
+  }
+}
+
+@media (max-width: 767px) {
+  .u-section-6 .u-text-1 {
+    margin-right: 0;
+  }
 }

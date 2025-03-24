@@ -203,11 +203,11 @@
 
 @media (max-width: 575px) {
    .u-section-1 {
-    min-height: 932px;
+    min-height: 965px;
   }
 
   .u-section-1 .u-layout-wrap-1 {
-    margin-top: 75px;
+    margin-top: 0;
   }
 
   .u-section-1 .u-image-1 {
